@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import CardSlider from "./CardSlider";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<CardSlider />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

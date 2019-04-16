@@ -10,6 +10,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
+    "react-testing-library": "^6.1.2",
     "typescript": "3.4.3"
   },
   "scripts": {
@@ -26,5 +27,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/styled-components": "^4.1.14",
+    "autoprefixer": "^9.5.1",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "prettier": "^1.17.0",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-react": "^4.0.0"
+  },
+  "proxy": "http://localhost:3000"
 }

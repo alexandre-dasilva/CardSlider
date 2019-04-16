@@ -1,0 +1,22 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: #f6f6f6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  cursor: pointer;
+}
+
+.MainContainer{
+  width: 1020px;
+  margin: 0 auto;
+}

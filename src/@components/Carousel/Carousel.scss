@@ -1,0 +1,35 @@
+.CarouselComponent{
+    overflow: hidden;
+
+    ul{
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        transition: 300ms transform ease-in-out;
+
+        li{
+            flex: 1 0 100%;
+            flex-basis: 33.33%;
+        }
+    }
+
+    .ArrowsContainer{
+        width: 60px;
+        margin: 26px auto;
+
+        .Arrow{
+            margin: 0 10px;
+            stroke: #2DA836;
+            transition: 300ms opacity ease;
+            
+            &.Disabled{
+                opacity: 0.5;
+                cursor: inherit;
+            }
+
+            svg {
+                width: 10px;
+            }
+        }
+    }
+}

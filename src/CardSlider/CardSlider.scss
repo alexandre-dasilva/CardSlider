@@ -1,0 +1,10 @@
+.CardSliderComponent{
+  &.CarouselComponent { 
+    margin: 0 13px;
+
+    .CarouselItem {
+      width: #{(100%/3)};
+      padding: 0 13px;
+    }
+  }
+}
