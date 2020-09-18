@@ -2,10 +2,10 @@ import "./CardSlider.scss";
 
 import React, { useEffect, useState } from "react";
 
-import { get } from "../@components/AjaxWrapper/AjaxHelper";
-import Card from "../@components/Card";
-import { ICard } from "../@components/Card/Card";
-import Carousel from "../@components/Carousel/Carousel";
+import { get } from "../Components/AjaxWrapper/AjaxHelper";
+import Card from "../Components/Card";
+import { ICard } from "../Components/Card/Card";
+import Carousel from "../Components/Carousel/Carousel";
 
 const itemsToShow = 3;
 
