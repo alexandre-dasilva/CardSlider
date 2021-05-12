@@ -33,7 +33,7 @@
     "@types/styled-components": "^4.1.14",
     "autoprefixer": "^9.8.0",
     "node-sass": "^4.14.1",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "prettier": "^1.17.0"
   },
   "proxy": "http://localhost:3000"
